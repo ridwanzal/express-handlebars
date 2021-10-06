@@ -1,0 +1,285 @@
+/*
+Author : M. Ridwan Zalbina
+*/
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar-custom {
+    background-color: #000 !important;
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.navmain>li {
+    font-weight: 700;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 50px;
+    padding-left: 0;
+}
+
+.navmain>li>a {
+    color: #fff !important;
+}
+
+.my_input {
+    border-radius: 50px;
+    display: block;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #ccc;
+}
+
+.my_button {
+    background: -webkit-linear-gradient(300deg, #00c3ff, #0066ff);
+    border: none;
+    color: #fff;
+    border-radius: 50px !important;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-weight: 600;
+}
+
+.my_button_outline{
+    background: transparent;
+    border: none;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 50px !important;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-weight: 600;
+}
+
+#nav_section {
+    background-color: #000;
+}
+
+.main_section {
+    min-height: 800px;
+    width: 100%;
+    overflow-x: hidden;
+    background-image: url("/images/background.png");
+    background-size: cover;
+}
+
+.second_section {
+    background: #f7f7f7;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.third_section {
+    background: #ffffff;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.fourth_section {
+    background: #000000;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.five_section {
+    background: #ffffff;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+#footer_section {
+    background: #000000;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.tag-text {
+    margin-top: 100px;
+    font-size: 25px;
+    color: #fff !important;
+}
+
+.main-text {
+    font-weight: 900;
+    font-size: 85px;
+    background: -webkit-linear-gradient(300deg, #fd0037, #0066ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sub-text {
+    position: relative;
+    top: -20px;
+    font-size: 45px;
+    font-weight: 500;
+    color: #fff !important;
+}
+
+.text_info {
+    color: #fff;
+    font-size: 20px;
+}
+
+.text_head {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.text_title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text_subtitle {
+    font-size: 18px;
+    font-weight: 700;
+    color: #999;
+}
+
+.text_content {
+    line-height: 38px;
+}
+
+.separ {
+    width: 70px;
+    height: 5px;
+    background: -webkit-linear-gradient(300deg, #00c3ff, #0066ff);
+}
+
+.cardlist {
+    background: #f7f7f7;
+    padding: 45px;
+    position: relative;
+    border-radius: 7px;
+}
+
+.cardlist_youtube1 {
+    background: #f7f7f7;
+    height: 250px;
+    position: relative;
+    border-radius: 7px;
+}
+
+.cardlist_youtube2 {
+    background: #f7f7f7;
+    height: 20px;
+    position: relative;
+    border-radius: 7px;
+}
+
+
+.cardlist_sponsor {
+    background: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    height: auto;
+    border-radius: 7px;
+}
+
+
+.image_sponsor {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+
+.image_sec2 {}
+
+.text_white {
+    color: #ffffff;
+}
+
+
+.text_center {
+    text-align: center;
+}
+
+.center_button {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#mapid {
+    height: 350px;
+}
+
+.text_footer {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.img_footer{
+    height: 50px;
+}
+
+.flex_social {
+    display: flex;
+    float: right;
+    padding-top: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-custom {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navmain>li {
+        font-weight: 700;
+        padding-right: 0;
+    }
+
+    .tag-text{
+        margin-top: 5px;
+        font-size: 21px;
+    }
+
+    .main-text{
+        font-size: 67px;
+        font-size: 67px;
+        line-height: 75px;
+        padding-bottom: 20px;
+    }
+
+    .sub-text{
+        font-size: 35px;
+    }
+
+    .main_section {
+        padding-bottom: 50px;
+    }
+
+    .second_section,
+    .third_section,
+    .fourth_section,
+    .five_section{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .cardlist{
+        margin: 10px;
+    }
+
+    .img-fluid {
+        padding-top: 50px;
+    }
+
+    .navbar-toggler:not(:disabled):not(.disabled){
+        border: 1px solid #555;
+    }
+
+    .flex_social {
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
