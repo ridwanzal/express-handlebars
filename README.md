@@ -12,8 +12,6 @@ Demo & Example
 
 ![](https://serving.photos.photobox.com/06050507f86d218972982af6226673d604a4849d5b3d24a5fa7f88d373909ad1761677fd.jpg)
 
-[TOC]
-
 ### Prerequisite :
 
 - Understand about basic HTML and CSS
