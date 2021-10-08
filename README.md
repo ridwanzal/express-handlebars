@@ -19,7 +19,7 @@ Demo & Example
 
 Prerequisite
 
--  We're currently use version 12.x (using nvm for change node version) :
+-  We're currently use version 12.x, we suggest to used node version manager (nvm) :
 
   ```javascript
   $ nvm use 12
