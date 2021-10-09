@@ -50,7 +50,7 @@ $ npm i nodemon -g
 
 You can run the app with many ways, if you're using VSCode editor, click **debug icon** in VSCODE to run the app, the launch.json file is created under 
 
-.vscode directorym or you can manually run with the following command :
+.vscode directory or you can manually run with the following command :
 
 ```
 $ npm start
