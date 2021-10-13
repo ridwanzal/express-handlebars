@@ -3,8 +3,10 @@
 
 
 # Landing page with Express and Handlebars
+<img src="https://rwzwebone.herokuapp.com/images/logo.svg" alt="drawing" style="width:50px;"/>
 
-This page is generate using Express generator **https://expressjs.com/en/starter/generator.html** modify as you please
+This page is generate using Express generator 
+**https://expressjs.com/en/starter/generator.html** modify as you please
 
 Demo & Example
 
