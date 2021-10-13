@@ -18,21 +18,16 @@ Demo & Example
 
 - Understand about basic HTML and CSS
 - Understand little bit of Javascript
-
-Prerequisite
-
 -  We're currently used version 12.x, we suggest to used nvm to adjust your node version :
 
   ```javascript
   $ nvm use 12
   ```
-
 - Check NodeJS version :
-
-  ```
-  $ node -v
-  v12.14
-  ```
+ ```javascript
+ $ node -v
+ v12.14
+ ```
 
 ------
 
